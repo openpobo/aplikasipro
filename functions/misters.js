@@ -11,7 +11,7 @@ export async function onRequest(context) {
 
         description: page.description,
 
-        canonical: canonical("/update-terbaru"),
+        canonical: canonical("/mister"),
 
         content: page.content
     });
